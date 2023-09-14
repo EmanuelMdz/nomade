@@ -25,9 +25,20 @@ export const Navbar = ({ theme }) => {
 
   return (
     <div id="navbar" className="navbar_container">
-      <div className="nav_logo_hide ">
-        <img src="../logo_nomade_white.png" alt="" />
-      </div>
+      <Link
+        onClick={closeMenu}
+        to="navbar"
+        spy={true}
+        smooth={true}
+        offset={-3500}
+        duration={350}
+      >
+        {" "}
+        <div className="nav_logo_hide ">
+          <img src="../logo_nomade_white.png" alt="" />
+        </div>
+      </Link>
+
       <div className={isMenuVisible ? "links_navbar visible" : "links_navbar"}>
         <button onClick={handleMenu} className="media_menu_close">
           <img src="../xmoon.png" alt="" />
