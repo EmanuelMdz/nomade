@@ -5,14 +5,17 @@
   height: 100vh;
   margin: 60px;
 }
+
 .conteiner {
   z-index: 2;
 }
+
 .carrousel_triple {
   display: flex;
   justify-content: center;
   width: 80vh;
 }
+
 .carrousel_triple img {
   width: 20vh;
   margin: 7px;
@@ -24,34 +27,41 @@
   width: 400px;
   position: absolute;
 }
+
 .hojas_deco2.izq {
   left: 0px;
   opacity: 0.2;
   margin-bottom: 345px;
 }
+
 .hojas_deco2.der {
   right: 0;
   margin-top: 300px;
   opacity: 0.2;
 }
 
-@media (width <800px) {
+/* Media Query para pantallas con un ancho máximo de 800px */
+@media (max-width: 800px) {
   .carrousel_triple {
     width: 40vh;
   }
+
   .carrousel_triple img {
     width: 10vh;
   }
+
   .hojas_deco2 {
     width: 200px;
     position: absolute;
   }
+
   .hojas_deco2.izq {
     left: -40px;
     opacity: 0.2;
     margin-bottom: 545px;
     display: none;
   }
+
   .hojas_deco2.der {
     right: 0;
     margin-top: 500px;

@@ -53,12 +53,12 @@
   font-size: 18px;
 }
 /* ----------------------Medias*----------------- */
-@media (width < 1777px) {
+@media (max-width: 1777px) {
   .divisor_hojas {
     height: 105px;
   }
 }
-@media (width < 400px) {
+@media (max-width: 400px) {
   .text_izq h3 {
     text-align: center;
     margin-bottom: 30px;
@@ -68,7 +68,7 @@
     margin-bottom: 30px;
   }
 }
-@media (width < 400px) {
+@media (max-width: 400px) {
   .divisor_hojas {
     display: none;
   }
@@ -76,7 +76,7 @@
     margin-top: 20px;
   }
 }
-@media (width < 750px) {
+@media (max-width: 750px) {
   .text_info.first {
     display: none;
   }

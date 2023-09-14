@@ -60,7 +60,7 @@
 }
 /* Carrusel */
 
-@media (width < 1000px) {
+@media (max-width: 1000px) {
   .sobrenosotros_container {
     flex-direction: column;
   }
