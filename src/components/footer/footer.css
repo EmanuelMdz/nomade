@@ -15,17 +15,17 @@
 .redes img {
   width: 50px;
 }
-@media (width < 600px) {
+@media (max-width: 600px) {
   .footer-container p {
     font-size: 13px !important;
   }
 }
-@media (width < 700px) {
+@media (max-width: 700px) {
   .footer_text {
     display: none;
   }
 }
-@media (width < 470px) {
+@media (max-width: 470px) {
   .footer_left img {
     display: none;
   }
