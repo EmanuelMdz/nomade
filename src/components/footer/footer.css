@@ -1,0 +1,35 @@
+.footer-container {
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer_left img {
+  margin-left: 55px;
+  width: 15vh;
+}
+.redes {
+  display: flex;
+  justify-content: space-around;
+}
+.redes img {
+  width: 50px;
+}
+@media (width < 600px) {
+  .footer-container p {
+    font-size: 13px !important;
+  }
+}
+@media (width < 700px) {
+  .footer_text {
+    display: none;
+  }
+}
+@media (width < 470px) {
+  .footer_left img {
+    display: none;
+  }
+  .footer_right {
+    margin: auto;
+  }
+}

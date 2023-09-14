@@ -1,0 +1,21 @@
+.carrouselcontainer {
+  margin-top: 100px;
+}
+.carrousel_stats {
+  height: auto;
+}
+.mantine-vcl0d1.mantine-Carousel-controls button {
+  background-color: rgba(255, 255, 255, 0.396) !important;
+  border-style: none !important;
+}
+
+@media (width < 1050px) {
+  .carrousel_stats {
+    height: 300px;
+  }
+  .carrousel_stats img {
+    height: 300px;
+    object-fit: cover;
+    object-position: center center;
+  }
+}

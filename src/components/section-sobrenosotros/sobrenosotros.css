@@ -1,0 +1,83 @@
+.sobrenosotros_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+  color: black;
+}
+.sobrenosotros_text {
+  width: 600px;
+  margin-right: 20px;
+}
+.sobrenosotros_img_txt {
+  width: 600px;
+  margin-left: 20px;
+  z-index: 2;
+}
+.sobrenosotros_text p {
+  margin-left: 30px;
+  font-size: 20px;
+}
+.sobrenosotros_img_txt p {
+  font-size: 20px;
+}
+
+.sobrenosotros_text h1 {
+  font-size: 50px;
+}
+
+/* Decoration */
+
+.hojas_deco {
+  width: 500px;
+  position: absolute;
+}
+.hojas_deco.izq {
+  left: 0;
+  margin-bottom: 500px;
+  opacity: 0.3;
+}
+.hojas_deco.der {
+  right: 0;
+  margin-bottom: -500px;
+  opacity: 0.3;
+}
+/* Wppp Button */
+.wpp_btn {
+  position: fixed;
+  z-index: 20;
+  bottom: 30px;
+  right: 30px;
+}
+.wpp_btn img {
+  width: 50px;
+  opacity: 90%;
+}
+.wpp_btn img:hover {
+  width: 52px;
+  opacity: 100%;
+}
+/* Carrusel */
+
+@media (width < 1000px) {
+  .sobrenosotros_container {
+    flex-direction: column;
+  }
+  .sobrenosotros_img_txt img {
+    width: 80%;
+  }
+  .sobrenosotros_img_txt {
+    width: 80%;
+  }
+  .sobrenosotros_img_txt {
+    display: flex;
+    justify-content: center;
+  }
+  .sobrenosotros_text {
+    width: 80vw;
+  }
+  .hojas_deco {
+    width: 300px;
+  }
+}

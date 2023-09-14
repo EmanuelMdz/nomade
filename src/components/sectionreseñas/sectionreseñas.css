@@ -1,0 +1,32 @@
+.reseñas_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  color: black;
+  height: 70vh;
+}
+.ig img {
+  width: 20vw;
+}
+.ig {
+  display: flex;
+  flex-direction: column;
+}
+.cards img {
+  width: 350px;
+}
+.map {
+  width: 320px;
+  height: 350px;
+}
+@media (width < 1560px) {
+  .reseñas_container {
+    flex-direction: column;
+    height: 100vh;
+    width: 99vw;
+  }
+  .divider {
+    display: none;
+  }
+}
