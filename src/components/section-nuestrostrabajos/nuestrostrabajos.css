@@ -7,7 +7,7 @@
 }
 
 .conteiner {
-  z-index: 2;
+  z-index: 5;
 }
 
 .carrousel_triple {
@@ -43,11 +43,11 @@
 /* Media Query para pantallas con un ancho máximo de 800px */
 @media (max-width: 800px) {
   .carrousel_triple {
-    width: 40vh;
+    width: 35vh;
   }
 
   .carrousel_triple img {
-    width: 10vh;
+    width: 14vh;
   }
 
   .hojas_deco2 {
