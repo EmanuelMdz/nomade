@@ -31,7 +31,7 @@ export const Navbar = ({ theme }) => {
         spy={true}
         smooth={true}
         offset={-3500}
-        duration={350}
+        duration={250}
       >
         {" "}
         <div className="nav_logo_hide ">
