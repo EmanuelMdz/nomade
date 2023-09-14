@@ -14,7 +14,7 @@ export const Footer = () => {
       </div>
       <div className="footer_right">
         <div className="gmail">
-          <p>nomadehairstudio@gmail.com</p>
+          <p>nomadehairstudioa@gmail.com</p>
           <p>+59899999999</p>
         </div>
         <div className="direccion">
