@@ -9,7 +9,10 @@
 .conteiner {
   z-index: 5;
 }
-
+.carrousel_img button {
+  background-color: transparent;
+  border-style: none;
+}
 .carrousel_triple {
   display: flex;
   justify-content: center;
