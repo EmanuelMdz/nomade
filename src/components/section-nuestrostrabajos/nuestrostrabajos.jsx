@@ -10,35 +10,35 @@ export const Nuestrostrabajos = () => {
           <h1>Nuestros Trabajos</h1>
           <div className="carrousel_triple">
             <div className="carrousel_img">
-              <img src="../nomade_example.png" alt="" />
+              <img src="../carrousel6.png" alt="" />
             </div>
             <div className="carrousel_img">
-              <img src="../nomade_example.png" alt="" />
+              <img src="../carrousel1.png" alt="" />
             </div>
             <div className="carrousel_img">
-              <img src="../nomade_example.png" alt="" />
-            </div>
-          </div>
-          <div className="carrousel_triple">
-            <div className="carrousel_img">
-              <img src="../nomade_example.png" alt="" />
-            </div>
-            <div className="carrousel_img">
-              <img src="../nomade_example.png" alt="" />
-            </div>
-            <div className="carrousel_img">
-              <img src="../nomade_example.png" alt="" />
+              <img src="../carrousel2.png" alt="" />
             </div>
           </div>
           <div className="carrousel_triple">
             <div className="carrousel_img">
-              <img src="../nomade_example.png" alt="" />
+              <img src="../carrousel3.png" alt="" />
             </div>
             <div className="carrousel_img">
-              <img src="../nomade_example.png" alt="" />
+              <img src="../carrousel4.png" alt="" />
             </div>
             <div className="carrousel_img">
-              <img src="../nomade_example.png" alt="" />
+              <img src="../carrousel5.png" alt="" />
+            </div>
+          </div>
+          <div className="carrousel_triple">
+            <div className="carrousel_img">
+              <img src="../carrousel7.png" alt="" />
+            </div>
+            <div className="carrousel_img">
+              <img src="../carrousel8.png" alt="" />
+            </div>
+            <div className="carrousel_img">
+              <img src="../carrousel9.png" alt="" />
             </div>
           </div>
         </div>
