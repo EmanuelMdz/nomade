@@ -13,7 +13,7 @@ export const Sobrenosotros = () => {
           transition={{
             duration: 0.5,
           }}
-          initial={{ opacity: 0, x: -200 }}
+          initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
           className="sobrenosotros_text"
         >
@@ -30,7 +30,7 @@ export const Sobrenosotros = () => {
           transition={{
             duration: 0.5,
           }}
-          initial={{ opacity: 0, x: 200 }}
+          initial={{ opacity: 0, x: 20 }}
           whileInView={{ opacity: 1, x: 0 }}
           className="sobrenosotros_img_txt"
         >
