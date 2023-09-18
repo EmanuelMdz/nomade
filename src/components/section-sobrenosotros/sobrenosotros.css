@@ -30,17 +30,17 @@
 /* Decoration */
 
 .hojas_deco {
-  width: 500px;
+  width: 450px;
   position: absolute;
 }
 .hojas_deco.izq {
   left: 0;
-  margin-bottom: 500px;
+  margin-bottom: 350px;
   opacity: 0.3;
 }
 .hojas_deco.der {
   right: 0;
-  margin-bottom: -500px;
+  margin-bottom: -350px;
   opacity: 0.3;
 }
 /* Wppp Button */
