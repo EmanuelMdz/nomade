@@ -16,17 +16,6 @@ export const Nuestrostrabajos = () => {
               <img src="../nomade_example.png" alt="" />
             </div>
             <div className="carrousel_img">
-              <img src="../public/nomade_example.png" alt="" />
-            </div>
-          </div>
-          <div className="carrousel_triple">
-            <div className="carrousel_img">
-              <img src="../nomade_example.png" alt="" />
-            </div>
-            <div className="carrousel_img">
-              <img src="../nomade_example.png" alt="" />
-            </div>
-            <div className="carrousel_img">
               <img src="../nomade_example.png" alt="" />
             </div>
           </div>
@@ -38,7 +27,18 @@ export const Nuestrostrabajos = () => {
               <img src="../nomade_example.png" alt="" />
             </div>
             <div className="carrousel_img">
-              <img src="../public/nomade_example.png" alt="" />
+              <img src="../nomade_example.png" alt="" />
+            </div>
+          </div>
+          <div className="carrousel_triple">
+            <div className="carrousel_img">
+              <img src="../nomade_example.png" alt="" />
+            </div>
+            <div className="carrousel_img">
+              <img src="../nomade_example.png" alt="" />
+            </div>
+            <div className="carrousel_img">
+              <img src="../nomade_example.png" alt="" />
             </div>
           </div>
         </div>
