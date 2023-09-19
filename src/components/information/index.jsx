@@ -21,10 +21,6 @@ export const Information = () => {
             }}
             initial={{ opacity: 0, x: 0, y: -100 }}
             whileInView={{ opacity: 1, x: 0, y: 0 }}
-            whileHover={{
-              scale: 1.01,
-            }}
-            whileTap={{ scale: 0.99 }}
             className="text_izq"
           >
             <h3>¿Quienes Somos?</h3>
@@ -48,10 +44,6 @@ export const Information = () => {
             }}
             initial={{ opacity: 0, x: 0, y: -100 }}
             whileInView={{ opacity: 1, x: 0, y: 0 }}
-            whileHover={{
-              scale: 1.01,
-            }}
-            whileTap={{ scale: 0.99 }}
             className="text_der"
             id="servicios"
           >
