@@ -14,18 +14,19 @@
 }
 /* relleno */
 .relleno {
-  width: 10vw;
+  width: 7vw;
 }
 /* ----------TEXT------------ */
 .info_text_container {
   display: flex;
   justify-content: center;
   height: 28vh;
-  margin-left: 15px;
+  margin-left: 5vw;
   margin-right: 15px;
 }
 .text_der {
   width: 700px;
+  margin-right: 5vw;
 }
 .text_izq {
   width: 700px;
@@ -55,7 +56,15 @@
 /* ----------------------Medias*----------------- */
 @media (max-width: 1777px) {
   .divisor_hojas {
-    height: 105px;
+    height: 80px;
+  }
+}
+@media (max-width: 1060px) {
+  .divisor_hojas {
+    display: none;
+  }
+  .info_text_container {
+    margin-top: 30px;
   }
 }
 @media (max-width: 400px) {
@@ -73,7 +82,7 @@
     display: none;
   }
   .info_text_container {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 }
 @media (max-width: 750px) {

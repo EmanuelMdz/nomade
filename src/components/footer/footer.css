@@ -4,9 +4,13 @@
   justify-content: space-around;
   align-items: center;
 }
+.footer-container button {
+  background-color: transparent;
+  border-style: none;
+}
 .footer_left img {
-  margin-left: 55px;
-  width: 15vh;
+  margin: 10px;
+  width: 30vh;
 }
 .redes {
   display: flex;
@@ -15,6 +19,25 @@
 .redes img {
   width: 50px;
 }
+.info_dev {
+  display: flex;
+  justify-content: center;
+}
+.info_dev p {
+  color: rgb(132, 130, 130);
+}
+
+/* Anchos */
+.footer_text {
+  width: 200px;
+}
+.footer_left {
+  width: 200px;
+}
+.footer_right {
+  width: 200px;
+}
+
 @media (max-width: 600px) {
   .footer-container p {
     font-size: 13px !important;
@@ -26,10 +49,30 @@
   }
 }
 @media (max-width: 470px) {
-  .footer_left img {
-    display: none;
+  .redes {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .redes img {
+    width: 30px;
+  }
+  .footer-container {
+    align-items: flex-start;
+    margin-top: 55px;
+    height: 25vh;
   }
   .footer_right {
-    margin: auto;
+    margin-left: 40px;
+    width: auto;
+  }
+  .footer_left img {
+    margin-top: 0px !important;
+    margin: 20px;
+  }
+  .footer_left {
+    width: auto;
+  }
+  .info_dev p {
+    margin-bottom: 0px !important;
   }
 }
