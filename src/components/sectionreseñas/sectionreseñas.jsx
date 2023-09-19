@@ -2,6 +2,7 @@ import React from "react";
 import "./sectionreseñas.css";
 import { Carousel } from "@mantine/carousel";
 import { createStyles, getStylesRef } from "@mantine/core";
+import { motion } from "framer-motion";
 
 export const Sectionreseñas = () => {
   const useStyles = createStyles(() => ({
@@ -24,7 +25,15 @@ export const Sectionreseñas = () => {
     <>
       <div className="reseñas_container" id="reseñas">
         <div className="reseñas_left">
-          <div className="reseñas">
+          <motion.div
+            initial={{ opacity: 0, x: 0, y: 150 }}
+            whileInView={{ opacity: 1, x: 0, y: 0 }}
+            whileHover={{
+              scale: 1.01,
+            }}
+            whileTap={{ scale: 0.99 }}
+            className="reseñas"
+          >
             <h3>Nuestros Clientes</h3>
             <div className="cards">
               <Carousel
@@ -45,12 +54,28 @@ export const Sectionreseñas = () => {
                 </Carousel.Slide>
               </Carousel>
             </div>
-          </div>
+          </motion.div>
         </div>
-        <div className="divider">
+        <motion.div
+          initial={{ opacity: 0, x: 0, y: 150 }}
+          whileInView={{ opacity: 1, x: 0, y: 0 }}
+          whileHover={{
+            scale: 1.01,
+          }}
+          whileTap={{ scale: 0.99 }}
+          className="divider"
+        >
           <img src="../divider_nomade.png" alt="" />
-        </div>
-        <div className="reseñas_map">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: 0, y: 150 }}
+          whileInView={{ opacity: 1, x: 0, y: 0 }}
+          whileHover={{
+            scale: 1.01,
+          }}
+          whileTap={{ scale: 0.99 }}
+          className="reseñas_map"
+        >
           <h3>¿Cómo llegar?</h3>
           <div>
             <iframe
@@ -61,7 +86,7 @@ export const Sectionreseñas = () => {
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );

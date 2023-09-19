@@ -11,10 +11,14 @@ export const Sobrenosotros = () => {
         <motion.div
           delay={1}
           transition={{
-            duration: 0.5,
+            duration: 0.2,
           }}
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
+          whileHover={{
+            scale: 1.01,
+          }}
+          whileTap={{ scale: 0.99 }}
           className="sobrenosotros_text"
         >
           <h1>Sobre Nosotros</h1>
@@ -28,10 +32,14 @@ export const Sobrenosotros = () => {
         <motion.div
           delay={1}
           transition={{
-            duration: 0.5,
+            duration: 0.2,
           }}
           initial={{ opacity: 0, x: 20 }}
           whileInView={{ opacity: 1, x: 0 }}
+          whileHover={{
+            scale: 1.01,
+          }}
+          whileTap={{ scale: 0.99 }}
           className="sobrenosotros_img_txt"
         >
           <img src="../somos_momade.png" alt="" />

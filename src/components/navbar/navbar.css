@@ -14,7 +14,11 @@
   width: 140px;
 }
 .img_hojas {
-  opacity: 0.6;
+  visibility: visible;
+}
+
+.img_hojas.hide {
+  visibility: hidden;
 }
 /* Scroll */
 .navbar_container.scroll {
@@ -134,9 +138,6 @@
   width: 150px;
 }
 
-.img_hojas.hide {
-  display: none;
-}
 .nav_logo.hide {
   display: none;
 }
