@@ -51,7 +51,7 @@ export const Footer = () => {
               }}
               whileTap={{ scale: 0.9 }}
             >
-              <a target="blank" href="https://wa.me/+598092901261">
+              <a target="blank" href="https://wa.me/+59895011788">
                 <img src="../wpp_logo.png" alt="" />
               </a>
             </motion.button>
@@ -60,7 +60,7 @@ export const Footer = () => {
         <div className="footer_right">
           <div className="gmail">
             <p>nomadehairstudioa@gmail.com</p>
-            <p>+59899999999</p>
+            <p>+598 95011788</p>
           </div>
           <div className="direccion">
             <p>Av. Luis Alberto de Herrera 2955</p>

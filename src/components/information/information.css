@@ -51,7 +51,10 @@
   text-align: right;
 }
 .info_text_container p {
-  font-size: 18px;
+  font-size: 17px;
+}
+.li_servicios {
+  cursor: pointer;
 }
 /* ----------------------Medias*----------------- */
 @media (max-width: 1777px) {

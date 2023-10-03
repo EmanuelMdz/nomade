@@ -3,6 +3,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: white;
+  color: black;
 }
 .footer-container button {
   background-color: transparent;
@@ -22,6 +24,7 @@
 .info_dev {
   display: flex;
   justify-content: center;
+  background-color: white;
 }
 .info_dev p {
   color: rgb(132, 130, 130);

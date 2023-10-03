@@ -23,10 +23,10 @@ export const Sobrenosotros = () => {
         >
           <h1>Sobre Nosotros</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Somos un equipo que se caracteriza por el buen servicio y
+            profesionalidad! Estamos enfocados en darte los mejores resultados y
+            asumimos el compromiso de trabajar en tu imagen! apasionados por lo
+            que hacemos y en constante evolución,siempre en busca de mejorar!
           </p>
         </motion.div>
         <motion.div
@@ -46,7 +46,7 @@ export const Sobrenosotros = () => {
         </motion.div>
         <a
           className="wpp_btn"
-          href="https://wa.me/+598092901261"
+          href="https://wa.me/+59895011788"
           target="_blank"
         >
           <img src="../whatsapp.png" alt="" />

@@ -27,11 +27,15 @@ export const Carrousel2 = () => {
         </Carousel.Slide>
         <Carousel.Slide>
           {" "}
-          <img src="../prueba1.png" className="d-block w-100" alt="..." />
+          <img src="../prueba2.png" className="d-block w-100" alt="..." />
         </Carousel.Slide>
         <Carousel.Slide>
           {" "}
-          <img src="../prueba1.png" className="d-block w-100" alt="..." />
+          <img src="../prueba3.png" className="d-block w-100" alt="..." />
+        </Carousel.Slide>
+        <Carousel.Slide>
+          {" "}
+          <img src="../prueba4.png" className="d-block w-100" alt="..." />
         </Carousel.Slide>
         {/* ...other slides */}
       </Carousel>

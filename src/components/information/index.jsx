@@ -25,14 +25,14 @@ export const Information = () => {
           >
             <h3>¿Quienes Somos?</h3>
             <p className="text_info">
-              En Nómade, somos más que una simple peluquería. Somos una
-              comunidad apasionada y comprometida con tu imagen. Nuestra misión
-              es realzar tu belleza y resaltar tu estilo único.
+              Somos Jes y Fede,una pareja que hace más de 10 años nos dedicamos
+              al estilismo! Y en el 2016 decidimos dar comienzo a nuestro
+              sueño,un lugar el que el ambiente relajado y con buena energía se
+              mezcle con la profesionalidad,compromiso y dedicación!
             </p>
             <p className="text_info second">
-              Trabajamos juntos para lograr la imagen que deseas y mereces.
-              Nuestra pasión por la belleza se refleja en cada detalle de
-              nuestro trabajo.
+              Siempre dando nuestro máximo esfuerzo. Hoy Nómade hair studio es
+              una realidad gracias a nuestro equipo y todxs ustedes
             </p>
           </motion.div>
           <div className="relleno"></div>
@@ -56,42 +56,46 @@ export const Information = () => {
               </p>
               <div className="lista">
                 <ul>
-                  <li>
+                  <li className="li_servicios">
                     <HoverCard width={280} shadow="md">
                       <HoverCard.Target>
-                        <p>example</p>
+                        <p>Barberia</p>
                       </HoverCard.Target>
                       <HoverCard.Dropdown>
                         <Text size="sm" color="black">
-                          Información del servcio 1
+                          Estamos capacitados en cortes de tendencia
+                          (mohicanos,mullet,todos los estilos de fade y diseños)
+                          como es cortes clásicos todo a tijera!
                         </Text>
                       </HoverCard.Dropdown>
                     </HoverCard>
                   </li>
-                  <li>
+                  <li className="li_servicios">
                     {" "}
                     <HoverCard width={280} shadow="md">
                       <HoverCard.Target>
-                        <p>example</p>
+                        <p>Corte</p>
                       </HoverCard.Target>
                       <HoverCard.Dropdown>
                         <Text size="sm" color="black">
-                          Información del servcio 2
+                          Sabemos lo importante que es un corte y lo que
+                          significa! Por eso lo tomamos con mucha
+                          responsabilidad
                         </Text>
                       </HoverCard.Dropdown>
                     </HoverCard>
                   </li>
-                  <li>
+                  <li className="li_servicios">
                     {" "}
                     <HoverCard width={280} shadow="md">
                       <HoverCard.Target>
-                        <p>example</p>
+                        <p>Coloración</p>
                       </HoverCard.Target>
                       <HoverCard.Dropdown>
                         <Text size="sm" color="black">
-                          Información del servcio 3 puede ser mas largo mas info
-                          Información del servcio 3 puede ser mas largo mas info
-                          Información del servcio 3 puede ser mas largo mas info
+                          Trabajamos con productos de calidad y con respaldo
+                          como son: ⁃ Alfaparf ⁃ Wella ⁃ Redken L'Oréal: ⁃
+                          Majirel ⁃ Inoa Coloración fantasía Pravana
                         </Text>
                       </HoverCard.Dropdown>
                     </HoverCard>
