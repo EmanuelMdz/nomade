@@ -50,6 +50,12 @@
   .footer_text {
     display: none;
   }
+  .footer_left {
+    padding-top: 30px;
+  }
+  .footer_right {
+    padding-top: 50px;
+  }
 }
 @media (max-width: 470px) {
   .redes {

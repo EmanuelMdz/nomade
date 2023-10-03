@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export const Information = () => {
   return (
     <>
-      <div className="info_container">
+      <div id="info" className="info_container">
         <Navbar />
         <Carrousel2 />
         <div className="divisor_hojas">

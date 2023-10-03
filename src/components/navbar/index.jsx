@@ -19,7 +19,7 @@ export const Navbar = ({ theme }) => {
   // ----Scroll---
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 50);
+      setScroll(window.scrollY);
     });
   }, []);
 
@@ -70,11 +70,11 @@ export const Navbar = ({ theme }) => {
         </Link>
         <Link
           onClick={closeMenu}
-          to="navbar"
+          to="info"
           spy={true}
           smooth={true}
-          offset={-3500}
-          duration={350}
+          offset={-2000}
+          duration={450}
         >
           <div className={isMenuVisible ? "nav_logo hide" : "nav_logo"}>
             <img src="../logo_nomade_white.png" alt="" />
