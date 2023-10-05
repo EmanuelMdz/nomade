@@ -37,6 +37,10 @@ export const Carrousel2 = () => {
           {" "}
           <img src="../prueba4.png" className="d-block w-100" alt="..." />
         </Carousel.Slide>
+        <Carousel.Slide>
+          {" "}
+          <img src="../prueba5.png" className="d-block w-100" alt="..." />
+        </Carousel.Slide>
         {/* ...other slides */}
       </Carousel>
     </div>

@@ -4,15 +4,16 @@ import { Navbar } from "../navbar";
 import { HoverCard, Button, Text, Group } from "@mantine/core";
 import { Carrousel2 } from "../carrousel2";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 export const Information = () => {
   return (
     <>
       <div id="info" className="info_container">
         <Navbar />
         <Carrousel2 />
-        <div className="divisor_hojas">
+        {/* <div className="divisor_hojas">
           <img src="../divisor_hojas_transp.png" alt="" />
-        </div>
+        </div> */}
         <div className="info_text_container">
           <motion.div
             delay={1}
@@ -100,6 +101,17 @@ export const Information = () => {
                       </HoverCard.Dropdown>
                     </HoverCard>
                   </li>
+                  <Link
+                    to="servicios"
+                    spy={true}
+                    smooth={true}
+                    offset={2150}
+                    duration={350}
+                  >
+                    <li className="li_servicios vermas">
+                      <p>Ver más...</p>
+                    </li>
+                  </Link>
                 </ul>
               </div>
             </div>

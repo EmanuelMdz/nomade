@@ -16,7 +16,7 @@ export const Nuestrostrabajos = () => {
             <div className="carrousel_img">
               <motion.button
                 whileHover={{
-                  scale: 1.1,
+                  scale: 1.2,
                 }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -26,7 +26,7 @@ export const Nuestrostrabajos = () => {
             <div className="carrousel_img">
               <motion.button
                 whileHover={{
-                  scale: 1.1,
+                  scale: 1.2,
                 }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -36,7 +36,7 @@ export const Nuestrostrabajos = () => {
             <div className="carrousel_img">
               <motion.button
                 whileHover={{
-                  scale: 1.1,
+                  scale: 1.2,
                 }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -48,7 +48,7 @@ export const Nuestrostrabajos = () => {
             <div className="carrousel_img">
               <motion.button
                 whileHover={{
-                  scale: 1.1,
+                  scale: 1.2,
                 }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -58,7 +58,7 @@ export const Nuestrostrabajos = () => {
             <div className="carrousel_img">
               <motion.button
                 whileHover={{
-                  scale: 1.1,
+                  scale: 1.2,
                 }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -68,7 +68,7 @@ export const Nuestrostrabajos = () => {
             <div className="carrousel_img">
               <motion.button
                 whileHover={{
-                  scale: 1.1,
+                  scale: 1.2,
                 }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -80,7 +80,7 @@ export const Nuestrostrabajos = () => {
             <div className="carrousel_img">
               <motion.button
                 whileHover={{
-                  scale: 1.1,
+                  scale: 1.2,
                 }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -90,7 +90,7 @@ export const Nuestrostrabajos = () => {
             <div className="carrousel_img">
               <motion.button
                 whileHover={{
-                  scale: 1.1,
+                  scale: 1.2,
                 }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -100,7 +100,7 @@ export const Nuestrostrabajos = () => {
             <div className="carrousel_img">
               <motion.button
                 whileHover={{
-                  scale: 1.1,
+                  scale: 1.2,
                 }}
                 whileTap={{ scale: 0.9 }}
               >

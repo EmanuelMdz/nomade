@@ -15,6 +15,7 @@
 }
 .img_hojas {
   visibility: visible;
+  opacity: 0.5;
 }
 
 .img_hojas.hide {

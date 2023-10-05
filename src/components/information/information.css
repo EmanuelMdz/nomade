@@ -21,6 +21,7 @@
   display: flex;
   justify-content: center;
   height: 28vh;
+  margin-top: 5vh;
   margin-left: 5vw;
   margin-right: 15px;
 }
@@ -51,10 +52,14 @@
   text-align: right;
 }
 .info_text_container p {
-  font-size: 17px;
+  font-size: 18px;
 }
 .li_servicios {
   cursor: pointer;
+}
+.li_servicios.vermas {
+  cursor: pointer;
+  text-decoration: underline;
 }
 /* ----------------------Medias*----------------- */
 @media (max-width: 1777px) {
@@ -88,7 +93,7 @@
     margin-top: 30px;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 840px) {
   .text_info.first {
     display: none;
   }

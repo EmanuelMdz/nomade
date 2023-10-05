@@ -5,7 +5,9 @@
   height: 100vh;
   margin: 60px;
 }
-
+.nuestrostrabajos_container h1 {
+  font-size: 50px;
+}
 .conteiner {
   z-index: 5;
 }
