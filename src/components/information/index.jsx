@@ -24,21 +24,27 @@ export const Information = () => {
             whileInView={{ opacity: 1, x: 0, y: 0 }}
             className="text_izq"
           >
-            <h3>¿Quienes Somos?</h3>
-            <p className="text_info">
-              Somos Jes y Fede,una pareja que hace más de 10 años nos dedicamos
-              al estilismo! Y en el 2016 decidimos dar comienzo a nuestro
-              sueño,un lugar el que el ambiente relajado y con buena energía se
-              mezcle con la profesionalidad,compromiso y dedicación!
-            </p>
-            <p className="text_info second">
-              Siempre dando nuestro máximo esfuerzo. Hoy Nómade hair studio es
-              una realidad gracias a nuestro equipo y todxs ustedes
-            </p>
+            {" "}
+            <div className="der">
+              {" "}
+              <h3>¿Quienes Somos?</h3>
+            </div>
+            <div className="izq">
+              <p className="text_info">
+                ¡Somos Jes y Fede! Una pareja que hace más de 10 años nos
+                dedicamos al estilismo. Y en el 2016 decidimos dar comienzo a
+                nuestro sueño,un lugar en el que el ambiente relajado y con
+                buena energía se mezcle con la profesionalidad,compromiso y
+                dedicación.
+              </p>
+              <p className="text_info second">
+                ¡Siempre dando nuestro máximo esfuerzo! Hoy Nómade Hair Studio
+                es una realidad gracias a nuestro equipo y todxs ustedes
+              </p>
+            </div>
           </motion.div>
-          <div className="relleno"></div>
-          <div className="relleno"></div>
-          <motion.div
+
+          {/* <motion.div
             delay={1}
             transition={{
               duration: 0.2,
@@ -115,7 +121,7 @@ export const Information = () => {
                 </ul>
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </>
