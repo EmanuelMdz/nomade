@@ -108,6 +108,16 @@ export const Nuestrostrabajos = () => {
               </motion.button>
             </div>
           </div>
+          <div class="center">
+            <div class="btn-1">
+              <a
+                href="https://www.instagram.com/nomadehairstudio/"
+                about="/blank"
+              >
+                <span>Seguinos en Instagram!</span>
+              </a>
+            </div>
+          </div>
         </motion.div>
 
         <img className="hojas_deco2 der" src="../hojas2_der.png" alt="" />
