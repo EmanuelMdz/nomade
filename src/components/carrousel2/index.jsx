@@ -11,6 +11,9 @@ export const Carrousel2 = () => {
   const [image4, setImage4] = useState("prueba4.png");
   const [image5, setImage5] = useState("prueba5.png");
   const [image6, setImage6] = useState("prueba6.png");
+  const [image7, setImage7] = useState("prueba7.png");
+  const [image8, setImage8] = useState("prueba8.png");
+  const [image9, setImage9] = useState("prueba9.png");
   const isMobile = useMediaQuery("(max-width: 600px)");
   return (
     <div className="carrouselcontainer">
@@ -70,6 +73,27 @@ export const Carrousel2 = () => {
             <img src="../prueba6cel.png" className="d-block w-100" alt="..." />
           ) : (
             <img src="../prueba6.png" className="d-block w-100" alt="..." />
+          )}
+        </Carousel.Slide>
+        <Carousel.Slide>
+          {image7 === "prueba7.png" && isMobile ? (
+            <img src="../prueba7cel.png" className="d-block w-100" alt="..." />
+          ) : (
+            <img src="../prueba7.png" className="d-block w-100" alt="..." />
+          )}
+        </Carousel.Slide>
+        <Carousel.Slide>
+          {image8 === "prueba8.png" && isMobile ? (
+            <img src="../prueba8cel.png" className="d-block w-100" alt="..." />
+          ) : (
+            <img src="../prueba8.png" className="d-block w-100" alt="..." />
+          )}
+        </Carousel.Slide>
+        <Carousel.Slide>
+          {image9 === "prueba9.png" && isMobile ? (
+            <img src="../prueba9cel.png" className="d-block w-100" alt="..." />
+          ) : (
+            <img src="../prueba9.png" className="d-block w-100" alt="..." />
           )}
         </Carousel.Slide>
       </Carousel>

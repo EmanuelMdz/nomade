@@ -52,6 +52,15 @@ export const Sectionreseñas = () => {
                 <Carousel.Slide>
                   <img src="../card3.png" alt="" />
                 </Carousel.Slide>
+                <Carousel.Slide>
+                  <img src="../card4.png" alt="" />
+                </Carousel.Slide>
+                <Carousel.Slide>
+                  <img src="../card5.png" alt="" />
+                </Carousel.Slide>
+                <Carousel.Slide>
+                  <img src="../card6.png" alt="" />
+                </Carousel.Slide>
               </Carousel>
             </div>
           </motion.div>
