@@ -46,7 +46,7 @@ export const Sobrenosotros = () => {
         </motion.div>
         <a
           className="wpp_btn"
-          href="https://wa.me/+59895011788"
+          href="https://wa.me/+59894381728"
           target="_blank"
         >
           <img src="../whatsapp.png" alt="" />
