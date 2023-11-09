@@ -21,7 +21,7 @@ export const Sobrenosotros = () => {
           whileTap={{ scale: 0.99 }}
           className="sobrenosotros_text"
         >
-          <h1>Sobre Nosotros</h1>
+          <h1 className="h1_font">Sobre Nosotros</h1>
           <p>
             Somos un equipo que se caracteriza por el buen servicio y
             profesionalidad! Estamos enfocados en darte los mejores resultados y

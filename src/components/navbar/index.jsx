@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { Link } from "react-scroll";
 
-export const Navbar = ({ theme }) => {
+export const Navbar = () => {
   const [isMenuVisible, setMenuVisible] = useState(false);
   const [scroll, setScroll] = useState(false);
 
@@ -89,6 +89,16 @@ export const Navbar = ({ theme }) => {
           duration={350}
         >
           <div className="nav_text">SOBRE NOSOTROS</div>
+        </Link>
+        <Link
+          onClick={closeMenu}
+          to="servicios"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={350}
+        >
+          <div className="nav_text servicios">SERVICIOS</div>
         </Link>
         <Link
           onClick={closeMenu}

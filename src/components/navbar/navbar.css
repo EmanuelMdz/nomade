@@ -74,7 +74,15 @@
 .nav_logo_hide {
   display: none;
 }
+.nav_text.servicios {
+  display: none;
+}
 @media (max-width: 1050px) {
+  .nav_text.servicios {
+    display: block;
+    width: 170px;
+    height: 24px;
+  }
   .media_menu {
     display: block;
   }

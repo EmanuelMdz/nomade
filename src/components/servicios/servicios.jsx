@@ -28,7 +28,7 @@ export const Servicios = () => {
               </p>
               <h5>Coloración</h5>
               <p>
-                rabajamos con productos de calidad y con respaldo como son: ⁃
+                Rabajamos con productos de calidad y con respaldo como son: ⁃
                 Alfaparf ⁃ Wella ⁃ Redken L'Oréal: ⁃ Majirel ⁃ Inoa Coloración
                 fantasía Pravana
               </p>
