@@ -59,8 +59,8 @@ export const Footer = () => {
         </div>
         <div className="footer_right">
           <div className="gmail">
-            <p>nomadehairstudioa@gmail.com</p>
-            <p>+598 95011788</p>
+            <p>nomade2955@gmail.com</p>
+            <p>+598 094381728</p>
           </div>
           <div className="direccion">
             <p>Av. Luis Alberto de Herrera 2955</p>
